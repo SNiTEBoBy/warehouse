@@ -88,9 +88,9 @@ packaging==21.3 \
     --hash=sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb \
     --hash=sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522
     # via sphinx
-pygments==2.12.0 \
-    --hash=sha256:5eb116118f9612ff1ee89ac96437bb6b49e8f04d8a13b514ba26f620208e26eb \
-    --hash=sha256:dc9c10fb40944260f6ed4c688ece0cd2048414940f1cea51b8b226318411c519
+pygments==2.20.0 \
+    --hash=sha256:6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f \
+    --hash=sha256:81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176
     # via sphinx
 pyparsing==3.0.8 \
     --hash=sha256:7bf433498c016c4314268d95df76c81b842a4cb2b276fa3312cfb1e1d85f6954 \
@@ -116,13 +116,13 @@ sphinx==4.5.0 \
     --hash=sha256:7bf8ca9637a4ee15af412d1a1d9689fec70523a68ca9bb9127c2f3eeb344e2e6 \
     --hash=sha256:ebf612653238bcc8f4359627a9b7ce44ede6fdd75d9d30f68255c7383d3a6226
     # via
-    #   -r requirements/docs.in
+    #   -r docs.in
     #   sphinx-rtd-theme
     #   sphinxcontrib-httpdomain
 sphinx-rtd-theme==1.0.0 \
     --hash=sha256:4d35a56f4508cfee4c4fb604373ede6feae2a306731d533f409ef5c3496fdbd8 \
     --hash=sha256:eec6d497e4c2195fa0e8b2016b337532b8a699a68bcb22a512870e16925c6a5c
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-applehelp==1.0.2 \
     --hash=sha256:806111e5e962be97c29ec4c1e7fe277bfd19e9652fb1a4392105b43e01af885a \
     --hash=sha256:a072735ec80e7675e3f432fcae8610ecf509c5f1869d17e2eecff44389cdbc58
@@ -138,7 +138,7 @@ sphinxcontrib-htmlhelp==2.0.0 \
 sphinxcontrib-httpdomain==1.8.0 \
     --hash=sha256:2059cfabd0cca8fcc3455cc8ffad92f0915a7d3bb03bfddba078a6a0f35beec5 \
     --hash=sha256:a3396d6350728d574f52458b400f0ac848f8b6913bd41fed95d391d3ffbbade3
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-jsmath==1.0.1 \
     --hash=sha256:2ec2eaebfb78f3f2078e73666b1415417a116cc848b72e5172e596c871103178 \
     --hash=sha256:a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8
